@@ -66,21 +66,54 @@ became "called", same length, sharper verb. Dropping "then" was tested
 and rejected: the chain reads fine without it, and the shorter line turns
 faster.
 
-FINAL ENTRY (99 characters):
-"One star. My Monday woke me at 6, made me miss the bus, and called a
-meeting to ask why I was late."
+REVISION — Pass 3 (fix agent, thinking_revised: re-open the punch):
+
+The submitted line C was strong, but its punch — "called a meeting to ask
+why I was late" — spends 44 characters explaining a joke the reader
+already gets. The cause-and-punishment chain IS the joke; the turn should
+arrive faster (criterion 4) and land harder (criterion 2). Two fresh
+alternatives, keeping the first 55 characters ("One star. My Monday woke
+me at 6, made me miss the bus,") intact:
+
+F. "...and docked my pay for arriving late." (92 chars)
+   - For: the punishment is financial — a crueler escalation, same chain.
+   - Against: "docked" needs payroll knowledge, it drops the meeting
+     detail entirely, and "for arriving late" is wordy; the punch is
+     spread over the last five words instead of landing on one.
+
+G. "...then wrote me up for being late." (88 chars)
+   - For: same chain, but the turn arrives 11 characters sooner; "wrote
+     me up" is a sharper, more specific workplace verb than "called a
+     meeting"; the punch lands on the final word "late" — the very
+     lateness Monday itself caused. Three concrete details survive
+     (6 a.m., the bus, the write-up), and it is the most repeatable to
+     a coworker of the three.
+
+H. "...and left a one-star review of me." (89 chars)
+   - For: the review format boomerangs — Monday reviews me back; a neat
+     meta twist.
+   - Against: the twist is cleverness, not a laugh; it abandons the
+     cause-and-punishment chain that made C work, and "a review of me"
+     is abstract where the write-up is a concrete event.
+
+G wins: it keeps everything that made C the Pass 2 winner and cuts the
+flab from the punch. The revision changes only the final clause.
+
+FINAL ENTRY (88 characters):
+"One star. My Monday woke me at 6, made me miss the bus, then wrote me
+up for being late."
 
 Hand count, two ways: per segment — "One star." = 9, " My Monday woke me
-at 6," = 24 (total 33), " made me miss the bus," = 22 (total 55), " and
-called a meeting to ask why I was late." = 44 (total 99). Cross-check:
-76 non-space characters + 23 spaces = 99.
+at 6," = 24 (total 33), " made me miss the bus," = 22 (total 55), " then
+wrote me up for being late." = 33 (total 88). Cross-check: 20 words, 69
+non-space characters + 19 spaces = 88.
 """
 
 import os
 
 ENTRY = (
     "One star. My Monday woke me at 6, made me miss the bus, "
-    "and called a meeting to ask why I was late."
+    "then wrote me up for being late."
 )
 
 

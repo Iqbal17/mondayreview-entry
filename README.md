@@ -6,7 +6,7 @@
 
 One line reviewing my own Monday, for make.fun's "Monday, Reviewed in One Line" bounty.
 
-> "One star. My Monday woke me at 6, made me miss the bus, and called a meeting to ask why I was late."
+> "One star. My Monday woke me at 6, made me miss the bus, then wrote me up for being late."
 
 ## Run it
 
